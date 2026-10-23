@@ -30,6 +30,13 @@ aside {
 ul {
   width: max-content;
 }
+ul .bio {
+  display: none;
+}
+ul .location {
+  text-align: left;
+  color: darkslategray;
+}
 
 li {
   margin: 8px 0;
