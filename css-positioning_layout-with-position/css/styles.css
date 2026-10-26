@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
+
 }
 
 body {
@@ -10,7 +12,7 @@ body {
   color: #252629;
   background-color: #f9f9f9;
   margin: 0;
-  padding: 100px 0;
+  padding: 0px 0;
 }
 
 /**
@@ -23,6 +25,12 @@ body {
   color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+  
 }
 
 .header__subheading {
@@ -43,6 +51,9 @@ body {
   height: 48px;
   color: #ffffff;
   background: #370182;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /**
@@ -51,12 +62,18 @@ body {
  */
 .card {
   max-width: 90%;
-  margin: 30px auto;
+  margin: 8px auto;
   padding: 20px;
   color: #555;
   background-color: #ebddfa;
   scroll-margin-top: 150px;
   border-radius: 5px;
+  position: relative;
+  top: 100px;
+}
+
+.card:nth-child(1) {
+  
 }
 
 .card__heading {
@@ -74,6 +91,11 @@ body {
   padding: 6px 12px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+
+
 }
 
 /**
@@ -87,4 +109,6 @@ body {
   border-radius: 5px;
   background-color: #ff4a11;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  bottom: 60px;
 }
