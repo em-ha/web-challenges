@@ -10,7 +10,12 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const postTitle = "Travel Update";
+const postContent ="I arrived in Italy one hour ago and have already eaten 3 gelatos.";
+let likes = 1;
+likes = likes + 1;
+const user = "Bart Simpson";
+const isReported = true;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +23,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+console.log(postTitle);
+console.log(postContent);
+console.log(likes);
+console.log(user);
+console.log(isReported);
 
 // --^-- write your code here --^--
